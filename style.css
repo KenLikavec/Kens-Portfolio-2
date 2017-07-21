@@ -1,0 +1,181 @@
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.intro{
+	height: 100%;
+	width:  100%;
+	margin: auto;
+	background-image: url("images/ExploreBackground.jpeg");
+	background-size: cover; /*--Allows the entirety of the image to be shown on the website, otherwise only poritons of the image would be shown--*/
+	display: table;
+	top: 0; /*--Top regarding margin--*/
+	padding-bottom: 50px;
+
+ }
+
+ .social{
+	list-style-type: none;
+	text-align: right; 
+}
+
+ .social li{
+ 	display: inline;
+ 	padding: 0.75%;
+ }
+
+ .social i {
+	font-size: 200%;
+	color: #7ac5cd;
+}
+
+.social i:hover{
+	color: #f0f8ff;
+}
+	
+.banner{
+	font-family: 'Amatic SC', cursive;
+	color: #e5ca38;
+	text-align: center;
+	padding-top: 0;
+}
+	
+.homeTitle{
+	font-size: 500%;
+	margin: 20px 0;
+}
+
+.homeBioPar{
+	font-size: 130%;
+	width: 50%;
+  	margin: auto;
+  	border-top-style: ridge;
+  	border-bottom-style: ridge;
+}
+
+.homeBio{
+	font-family: 'Poiret One', cursive;
+	color: #f0f8ff;
+	width: 100%;
+	text-align: center;
+}
+
+.home-bio-pic{
+	border-radius: 75%;
+	margin: 20px 0 10px 0;
+}
+
+.home-bio-pic-container{
+	text-align: center;
+}
+
+.navigation{
+	width: 100%;
+	margin: 10px 0 20px 0;
+}
+
+.nav-inner{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+	
+.navigation ul li {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 900;
+	font-size: 225%;
+	display: inline;
+	padding: 5% 5% 5% 4%;
+}
+
+.navigation ul li a{
+	color: #e5ca38;
+	text-decoration: none;
+}
+
+.navigation ul li a:hover{
+	color: #7ac5cd;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 400%;
+	color: #4b2f0c;
+}
+
+.thumbnail{
+	text-align: center;
+	width: 29.333333%;
+	padding: 2%;
+	float: left; /*--Allows the one-third pictures to line up--*/
+}
+
+.thumbnail p{
+	display: inline;
+
+}
+
+.thumbnail img:hover{
+	opacity: .6; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+
+
+
+
+.thumbnail{
+	width: 96%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
